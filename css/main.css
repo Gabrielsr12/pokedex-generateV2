@@ -481,6 +481,11 @@ footer ul li{
   width: 36px;
   display: inline-block;
 }
+.text ul li{
+  width: 30px;
+  cursor: pointer;
+}
+
 @media (max-width: 560px) {
   footer {
     padding: 4rem 0;
@@ -525,7 +530,7 @@ footer ul li{
   height: 100%;
 }
 .s-area-slide-hero .slide-hero .swiper-slide .main-area {
-  background: url("../img/bg-main.svg") no-repeat center center;
+  background: url("../img/bg-main.jpg") no-repeat center center;
   background: cover !important;
 }
 .s-area-slide-hero .slide-hero .swiper-slide .main-area .text .image .pokeball {
